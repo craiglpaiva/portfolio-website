@@ -3452,7 +3452,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #272833;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images/banner1.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3501,28 +3501,30 @@ input, select, textarea {
 			}
 
 				#banner .content header h2 {
+					margin-bottom: 350px;
 					font-size: 2.5em;
 					margin: 0;
 				}
 
 				#banner .content header p {
-					margin: 0.5em 0 0 0;
+					margin-bottom: 350px;
+					margin-top: 20px;
 					top: 0;
 				}
 
 			#banner .content .image {
 				border-radius: 100%;
 				display: inline-block;
-				height: 18em;
+				height: 20em;
 				margin-left: 3em;
-				vertical-align: middle;
-				width: 18em;
+				vertical-align: center;
+				width: 20em;
 			}
 
-				#banner .content .image img {
-					border-radius: 100%;
+				#banner .content .image img {					
 					display: block;
 					width: 100%;
+					height: 100%;
 				}
 
 	body.is-touch #banner {
